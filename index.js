@@ -4,7 +4,9 @@ const
    port = 3002,
    multer = require("multer"),
    fs = require("fs"),
-   upload = multer()
+   upload = multer();
+
+require('dotenv').config()
 
 app.use(express.json())
 app.use(require("cors")())
