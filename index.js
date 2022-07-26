@@ -140,4 +140,4 @@ app.delete("/api/:type/delete/path*?", (req, res) => {
 
 
 
-app.listen(process.env.PORT || port, console.log("server runing on port - ", port))
+app.listen(process.env.PORT || port, console.log("server runing on port - ", process.env.PORT || port))
