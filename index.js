@@ -137,6 +137,9 @@ app.delete("/api/:type/delete/path*?", (req, res) => {
    }
 })
 
+app.get("/api/aviad",(req,res)=>{
+   res.send('bla bla bla')
+})
 
 
 
